@@ -668,7 +668,7 @@ module SpeedSelect(select, maxValue);
     		2'b00: maxValue = 27'b000000100011111100000111111; //Easy
     		2'b01: maxValue = 27'b000000011011111100000111111; //Medium
     		2'b10: maxValue = 27'b000000010000000000000111111; //Hard
-    		2'b11: maxValue = 27'b000000001111111100000111111; //Fucking Really Hard
+    		2'b11: maxValue = 27'b000000001111111100000111111; //Really Hard
     	endcase
     end
 endmodule
