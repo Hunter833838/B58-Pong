@@ -1,0 +1,9 @@
+
+State Machine - |Pong|keyboard:kd|state_reg
+Name state_reg.ignore_caps_break state_reg.capslock state_reg.ignore_shift_break state_reg.shift state_reg.ignore_break state_reg.lowercase 
+state_reg.lowercase 0 0 0 0 0 0 
+state_reg.ignore_break 0 0 0 0 1 1 
+state_reg.shift 0 0 0 1 0 1 
+state_reg.ignore_shift_break 0 0 1 0 0 1 
+state_reg.capslock 0 1 0 0 0 1 
+state_reg.ignore_caps_break 1 0 0 0 0 1 
